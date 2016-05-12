@@ -3,6 +3,8 @@ os: linux
 files:
    - source: /WebContent/
      destination: /var/www/html
+   - source: /WebContent/LoginServlet.java
+     destination: /var/www/html
 permissions:
    - object: /var/www/html
      pattern: "**"
