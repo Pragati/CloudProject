@@ -2,6 +2,7 @@ version: 0.0
 os: linux
 files:
    - source: /WebContent/
+   - source: /src/com/sjsu/cmpe282project/
      destination: /var/www/html
 permissions:
    - object: /var/www/html
