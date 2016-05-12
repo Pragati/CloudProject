@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
 files:
-   
-   - source: /src/com/sjsu/cmpe282project/
+    - source: .
      destination: /var/www/html
 permissions:
    - object: /var/www/html
