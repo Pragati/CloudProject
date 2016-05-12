@@ -6,7 +6,7 @@
       <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="starter-template.css" rel="stylesheet">
 </head>
-<body style="background-color:#000">
+<body style="background-color:#000; font-weight:bold">
  <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#FFC600;">
       <div class="container">
         <div class="navbar-header">

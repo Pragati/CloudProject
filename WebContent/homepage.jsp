@@ -4,6 +4,7 @@
   <head>
       <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="starter-template.css" rel="stylesheet">
+      <link href="css/style2.css" rel='stylesheet' type='text/css' />
 </head>
 <body style="background-color:#000">
  <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#FFC600;">
