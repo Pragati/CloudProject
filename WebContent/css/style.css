@@ -38,14 +38,14 @@ body{
  	font-family: 'Open Sans', sans-serif;
 
 }
-.login-form {
+.login-form, .signup-form{
 	background: url(../images/bgf.png) no-repeat 100% 0%;
 	background-size: 100%;
 	width:37%;
 	margin:10% auto 4% auto;
  	position: relative;
 }
-.login-form h1{
+.login-form h1, .signup-form h1{
 	text-align:left;
 	color: #fff;
 	font-size:1.8em;
@@ -67,11 +67,22 @@ body{
 	right:11%;
 	margin:34px 0;
 } 
+.homepage-form h3{
+	text-align:right;
+	color: #fff;
+	font-size:1.15em;
+	font-weight:500;
+	font-family: 'Open Sans', sans-serif;
+	position:absolute;
+	margin:100px;
+	margin-bottom: 50px;
+}
 form {
 	padding:32% 3em;
 }
 form li{
 	border:1px solid #FFC600;
+	outline:none;
 	list-style:none;
 	margin-bottom:16px;
 	width:100%;
@@ -104,10 +115,10 @@ input[type="text"], input[type="password"] {
 	width:60%;
 	padding: 0.5em 2em 0.5em 1em;
 	color: #fff;
-	font-size:20px;
+	font-size:15px;
 	outline: none;
 	background: none;
-	border:none;
+	border:1px solid #222;;
 }
 
 input[type="submit"]{
@@ -263,5 +274,31 @@ input[type="submit"]:hover{
 		left: 29%;
 		top: 62.99%;
 	}
+	.signup-form {
+	background: url(../images/bgf.png) no-repeat 100% 0%;
+	background-size: 100%;
+	width:37%;
+	margin:10% auto 4% auto;
+ 	position: relative;
+	}
+	.signup-form h1{
+	text-align:left;
+	color: #fff;
+	font-size:1.8em;
+	font-weight:500;
+	font-family: 'Open Sans', sans-serif;
+	position:absolute;
+	top:7%;
+	left:11%;
+	margin:34px 0;
+} 
+	.table{
+	  border-spacing: 10px;
+    border-collapse: separate;
+	}
+	tr.spaceUnder > td	
+{
+  padding-bottom: 1em;
+}
 
 }
